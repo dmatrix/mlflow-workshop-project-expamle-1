@@ -1,5 +1,5 @@
 channels:
-- tutorial
+- default
 dependencies:
 - python=3.7.5
 - pip:
