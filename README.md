@@ -1,4 +1,4 @@
-# MLflow Project Example 
+# MLflow Project Keras Example 
 This example demonstrates how you can package an [MLflow Project](https://mlflow.org/docs/latest/projects.html) into GitHub and share it with 
 others to reproduce runs.
 
