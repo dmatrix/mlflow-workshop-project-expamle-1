@@ -1,4 +1,7 @@
 # MLflow Project Keras Example 
+
+![](images/nn_linear_regression.png)
+
 This example demonstrates how you can package an [MLflow Project](https://mlflow.org/docs/latest/projects.html) into GitHub and share it with 
 others to reproduce runs.
 
