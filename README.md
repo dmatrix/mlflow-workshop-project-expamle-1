@@ -7,7 +7,7 @@ others to reproduce runs.
 
 Problem: Build a simple Linear NN Model that predicts Celsius temperaturers from training data with Fahrenheit degree
 
-![](imagesa/temperature-conversion.png)
+![](images/temperature-conversion.png)
 
 
 You can execute this project from your local host as:
