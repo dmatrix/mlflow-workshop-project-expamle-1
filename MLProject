@@ -6,5 +6,5 @@ entry_points:
   main:
     parameters:
       batch_size: {type: int, default: 10}
-      epochs: {type: int, default: 1000}
+      epochs: {type: int, default: 100}
     command: "python train_keras.py {batch_size} {epochs}"
