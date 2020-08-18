@@ -12,5 +12,5 @@ Problem: Build a simple Linear NN Model that predicts Celsius temperaturers from
 
 You can execute this project from your local host as:
 
-* ```mlflow run git@github.com:dmatrix/mlflow-workshop-project-expamle-1.git -P batch_size=10 -P epochs=1500```
-* ```mlflow run https://github.com/dmatrix/mlflow-workshop-project-expamle-1 -P batch_size=10 -P epochs=1500```
+* ```mlflow run git@github.com:dmatrix/mlflow-workshop-project-expamle-1.git -P batch_size=5 -P epochs=500```
+* ```mlflow run https://github.com/dmatrix/mlflow-workshop-project-expamle-1 -P batch_size=10 -P epochs=1000```
