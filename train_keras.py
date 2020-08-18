@@ -23,7 +23,7 @@ def gen_data(start, stop, step):
     y_celsius = np.array(np.array([f2c(f) for f in X_fahrenheit]))
 
     predict_data =[]
-    [predict_data.append(t) for t in range (212, 170, -5)]
+    [predict_data.append(t) for t in range(212, 170, -5)]
 
     return (X_fahrenheit, y_celsius, predict_data)
 
