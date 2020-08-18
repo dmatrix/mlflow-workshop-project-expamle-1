@@ -16,8 +16,8 @@ import mlflow.pyfunc
 def f2c(f):
   return (f - 32) * 5.0/9.0
 
-def gen_data():
-    X_fahrenheit = np.arange(-212, 10512, 2, dtype=float)
+def gen_data(start, stop, step):
+    X_fahrenheit = np.arange(start, stop, step, dtype=float)
     # Randomize the input
     np.random.shuffle(X_fahrenheit)
     y_celsius = np.array(np.array([f2c(f) for f in X_fahrenheit]))
@@ -71,7 +71,7 @@ if __name__ == '__main__':
    batch_size = int(sys.argv[1]) if len(sys.argv) > 1 else 10
    epochs = int(sys.argv[2]) if len(sys.argv) > 2 else 100
    params = {'batch_size': batch_size, 'epochs': epochs}
-   (X, y, predict_data) = gen_data()
+   (X, y, predict_data) = gen_data(-212, 10512, 2)
    (exp_id, run_id) = mlflow_run(params, X,y)
 
    print(f"Finished Experiment id={exp_id} and run id = {run_id}")
