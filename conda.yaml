@@ -3,9 +3,11 @@ channels:
 - conda-forge
 dependencies:
 - python=3.7.5
+- boto3
 - pip
 - pip:
   - mlflow
+  - h5py==2.10.0
   - keras==2.3.1
   - tensorflow==2.0.0
 name: mlflow-env
